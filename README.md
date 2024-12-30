@@ -1,6 +1,14 @@
-# React + Vite
+# Real-time chat application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Building a responsive and user-friendly application where:
+
+- Users should be able to enter a chat room, send and receive messages to other users in real-time
+- Users should be able to see a list of chat rooms they can join.
+- Messages should be displayed in a chat window, grouped by conversation.
+
+## React + Vite
+
+Started with a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
 

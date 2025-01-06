@@ -7,7 +7,7 @@ export default function InputComponent({ labelName, action }) {
         {labelName}
       </label>
       <input className="border-gray-500" id={labelName} type="text" />
-      <button className="rounded-sm border-2 border-gray-700 px-3 w-20 h-7 hover:border-black bg-background text-black">
+      <button className="rounded-sm border-2 border-gray-700 px-3 w-20 h-7 hover:border-link hover:bg-link bg-background text-black">
         {action}
       </button>
     </form>

@@ -1,4 +1,4 @@
-import Chat from "../assets/chat";
+import Chat from "../assets/Chat";
 import React from "react";
 import Profile from "../assets/Profile";
 import InputComponent from "./InputComponent";
@@ -15,7 +15,6 @@ export default function Header() {
         <InputComponent labelName="Room" action="Join" />
       </div>
 
-      {/* <hr className="border-2 border-gray-600 my-6" /> */}
     </>
   );
 }

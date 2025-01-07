@@ -2,7 +2,7 @@ import React from "react";
 
 export default function InputComponent({ labelName, action }) {
   return (
-    <form className="grid grid-rows-1 grid-cols-3 py-3 gap-2 col-start-1 text-background">
+    <form className="grid grid-rows-1 grid-cols-3 py-3 gap-2 inset-0 col-start-1 text-background">
       <label className="col-spa w-20 h-7 col-end-1" htmlFor={labelName}>
         {labelName}
       </label>
